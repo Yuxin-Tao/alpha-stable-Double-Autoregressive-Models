@@ -5,7 +5,7 @@
 #' If you use sDAR model in your research, please cite our work
 #' by using the following BibTeX entry:
 #' @article{sDAR2022,
-#'   title={Maximum likelihood estimation for $\alpha$-stable double autoregressive  models},
+#'   title={Maximum likelihood estimation for $\alpha$-stable double autoregressive models},
 #'   author={Li, Dong and Tao, Yuxin and Yang, Yaxin and Zhang, Rongmao},
 #'   journal={submitted},
 #'   year={2022+}
