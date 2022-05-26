@@ -242,7 +242,7 @@ sDAR <- function(y, a_0=0.5, b_0=0.5, c_0=0.5, alpha_0=1){
   }
   W <- NULL; add <- t(g_dot[1,]) %*% solve(matrix(Ck[1,],2,2)) %*% Dk[1,] * nu[1]
   W[1] <- 1/m - add/m
-  for (j in 2:(m-1)){
+  for (j in 2:m){
     add <- try(add + t(g_dot[j,]) %*% solve(matrix(Ck[j,],2,2)) %*% Dk[j,] * (nu[j]-nu[j-1]))
     if ('try-error' %in% class(add)) {
       break
