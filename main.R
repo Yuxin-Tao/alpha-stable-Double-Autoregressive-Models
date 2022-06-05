@@ -256,7 +256,7 @@ sDAR <- function(y, a_0=0.5, b_0=0.5, c_0=0.5, alpha_0=1){
   ### Summarize the result
   MLE <- matrix(0,3,4, dimnames = list(c("Estimation","ASD_int","ASD_res"),
                                        c("a","b","c","alpha")))
-  MLE[1,] <- theta; MLE[2,] <- SD_1; MLE[3,] <- SD_2
+  MLE[1,] <- theta; MLE[2,] <- SD_2; MLE[3,] <- SD_1
   result <- list("Maximum likelihood estimation" = round(MLE,4))
   result$"Lyapunov_int (recommended)" <- gamma_1
   result$"Lyapunov_res" <- gamma_2
