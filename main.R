@@ -10,7 +10,6 @@
 #'   journal={submitted},
 #'   year={2022+}
 #' }
-
 ####################################################
 
 library(stabledist)
@@ -94,7 +93,7 @@ grr1 <- function(theta){
 ### Maximum Likelihood Estimation and Diagnostic Checking
 sDAR <- function(y, a_0=0.5, b_0=0.5, c_0=0.5, alpha_0=1){
   ### Use the first value as the initial value y_0
-  n <- length(y)-1
+  n <<- length(y)-1
   theta <- try(constrOptim(c(a_0,b_0,c_0,alpha_0), f=lik, grad=grr,
                          ui = rbind(c(0,1,0,0),c(0,0,1,0),c(0,0,0,1),c(0,0,0,-1)),
                          ci = c(0,0,0,-2))$par
