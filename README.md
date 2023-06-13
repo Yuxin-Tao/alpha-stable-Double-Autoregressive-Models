@@ -9,9 +9,9 @@ A toy example is given in the "main.R" for the illustration of the MLE for alpha
 # Citation
 If you use sDAR model in your research, please cite our work by using the following BibTeX entry:  
 ```
-@article{sDAR2022,
+@article{sDAR2023,
   title={Maximum likelihood estimation for $\alpha$-stable double autoregressive models},
   author={Li, Dong and Tao, Yuxin and Yang, Yaxin and Zhang, Rongmao},
-  journal={submitted},
-  year={2022+}
+  journal={Journal of Econometrics},
+  year={2023+}
 }
