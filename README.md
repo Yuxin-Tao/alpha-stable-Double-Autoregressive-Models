@@ -13,5 +13,5 @@ If you use sDAR model in your research, please cite our work by using the follow
   title={Maximum likelihood estimation for $\alpha$-stable double autoregressive models},
   author={Li, Dong and Tao, Yuxin and Yang, Yaxin and Zhang, Rongmao},
   journal={Journal of Econometrics},
-  year={2023+}
+  year={2023}
 }
